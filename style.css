@@ -1,0 +1,147 @@
+body{
+  font-family: "Roboto Slab";
+  text-align: center;
+}
+/*backgroundcolor*/
+.coloured{
+  background-color:#000;
+    color:#fff;
+}
+.nocolor{
+  background-color: #fff;
+}
+/*title*/
+#title{
+
+  text-align: left;
+}
+.mainheading{
+  font-family: "Roboto Slab", serif;
+
+  font-size:3.5rem;
+  line-height: 1.5;
+}
+/*navbar*/
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size:2.5rem;
+}
+.navbar{
+  padding: 0 0 0.25rem;
+}
+.nav-item{
+  padding: 0 15px;
+}
+.nav-link{
+font-size:1rem;
+font-family:"Montserrat"
+}
+.pic{
+max-width:150px;
+max-height: 60px;
+}
+.container-fluid{
+  padding: 5% 15%;
+}
+/*buttons*/
+.downloadbut{
+  margin: 3% 5% 5% 0;
+}
+
+.img{
+  width:80%;
+  border-radius: 20%;
+  position: relative;
+
+}
+/*feature box*/
+#features{
+  padding:7% 15%;
+
+
+}
+.featurebox{
+
+  padding:5%;
+}
+.icon:hover{
+  color:#ff9e8a;
+}
+/*pictures*/
+#Pictures{
+  padding:4% 15%;
+
+  background-color:#141314;
+
+}
+.secondheading{
+
+  font-family: "Roboto Slab";
+  color:white;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pics{
+  border:3px solid white;
+}
+.testimage{
+  padding-top:5px;
+  width:80%;
+border-radius: 20%;
+
+}
+
+.dish{
+
+  color:white;
+  font-family:"Montserrat" ;
+  font-weight:bold;
+  font-size:3rem;
+}
+/*card*/
+#card-details{
+  padding:120px;
+
+}
+.column{
+  padding:3% 2%;
+}
+.card-heading{
+  color:black;
+  font-family: 'cursive';
+}
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+}
+
+/*download template*/
+#download-template{
+  padding:7% 15%;
+  }
+.line1{
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+.line2{
+  font-family: 'Montserrat';
+}
+.line3{
+  font-family: 'cursive';
+  font-size: 1.5rem;
+  padding-top: 10px;
+
+}
+/*footer*/
+#last{
+  padding: 7% 15%;
+
+}
+.footer-icons{
+  margin:20px 10px;
+  font-size:1.5rem;
+}
+a{
+  color:inherit;
+}
